@@ -22,4 +22,5 @@ include_directories(${PROJECT_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/tests)
 set(GTEST_LIBRARIES gmock gtest gmock_main)
 
+enable_testing()
 include(${PROJECT_SOURCE_DIR}/tests/blink_test.cmake)
