@@ -40,3 +40,12 @@ likely within a unit with unit testing.
 effort, and gives better confidence in the code before passing a binary to
 another team, but doesn't replace the verification effort done at higher levels.
 
+## Terminology
+
+**Dependency Injection**
+
+**System Under Test (SUT)**
+
+**Depended On Component (DOC)**
+
+**Direct vs. Indirect Output**
